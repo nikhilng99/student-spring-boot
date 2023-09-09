@@ -21,3 +21,6 @@ CREATE DATABASE student;
 
 INSERT INTO student(id,name,email,age)
 VALUES (nextval('student_id_sequence'),'Nikhil','nikhil@gmail.com',22);
+
+In POSTMAN
+localhost:8080/api/v1/student - GET
